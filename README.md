@@ -29,39 +29,39 @@ Predict the CTR, which is the feature called 'label' in the dataset.
 
 
 # PROGRESS
-1. data cleaning
+**1. data cleaning**
 
-    1.1 full dataset: half way done
+    **1.1 full dataset:** half way done
 
-    1.2 subset: sample size 100K, for quicker EDA
+    **1.2 subset:** sample size 100K, for quicker EDA
 
-2. EDA
+**2. EDA**
 
-    2.1 full dataset: not done yet
+    **2.1 full dataset: **not done yet
 
-    2.2 subset: sample size 100K
+    **2.2 subset: **sample size 100K
 
-3. model
+**3. model**
 
-    3.1 baseline attempts: 
+    **3.1 baseline attempts: **
 
     train and test on the full baseline
 
     models tested: desicion tree, balanced random forest
 
-    3.2 subset: for easier testing 
+   ** 3.2 subset:** for easier testing 
 
     train and test on 100K 
 
     models tested: desicion tree, balanced random forest, xgboost
 
-    3.3 using XGBoost with GPU
+    **3.3 using XGBoost with GPU**
 
     test on both subset and full dataset
     
 
 # CURRENT CONCLUSION
-- models:
+**- models:**
 
     all models tested are working badly for recall (~0.2), 
 
@@ -69,7 +69,7 @@ Predict the CTR, which is the feature called 'label' in the dataset.
 
     or use neural network.
 
-- features:
+**- features:**
 
     in the dataset are not directly related to the target,
 
