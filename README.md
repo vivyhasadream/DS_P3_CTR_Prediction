@@ -45,19 +45,19 @@ Predict the CTR, which is the feature called 'label' in the dataset.
 
     3.1 baseline attempts: 
 
-        train and test on the full baseline
+    train and test on the full baseline
 
-        models tested: desicion tree, balanced random forest
+    models tested: desicion tree, balanced random forest
 
     3.2 subset: for easier testing 
 
-        train and test on 100K 
+    train and test on 100K 
 
-        models tested: desicion tree, balanced random forest, xgboost
+    models tested: desicion tree, balanced random forest, xgboost
 
     3.3 using XGBoost with GPU
 
-        test on both subset and full dataset
+    test on both subset and full dataset
     
 
 # CURRENT CONCLUSION
